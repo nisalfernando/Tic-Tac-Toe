@@ -23,3 +23,9 @@
   top: 5%;
   width: 80%;
 }
+
+.modal-cancel {
+  background-color: transparent;
+  border: none;
+  float: right;
+}
