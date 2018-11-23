@@ -29,3 +29,12 @@
   border: none;
   float: right;
 }
+
+.modal-title {
+  color: royalblue;
+  font-size: 1.1em;
+  padding: 0.5em;
+  text-decoration: underline;
+  margin: 0;
+  width: 10em;
+}
