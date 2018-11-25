@@ -38,3 +38,8 @@
   margin: 0;
   width: 10em;
 }
+
+.user-stories {
+  font-style: italic;
+  padding: 0.5em 2em 0.5em 2.5em;
+}
