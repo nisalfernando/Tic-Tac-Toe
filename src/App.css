@@ -8,4 +8,8 @@
   background-color: white;
   border: 1px solid black;
   border-radius: 5px;
+  margin: 20px auto;
+  padding: 5px;
+  text-align: center;
+  width: 12.5rem;
 }
