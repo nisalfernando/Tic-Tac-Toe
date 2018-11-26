@@ -51,3 +51,7 @@
 .story:nth-of-type(1) {
   margin-top: 0;
 }
+
+.modal-text {
+  margin: 0.5em;
+}
