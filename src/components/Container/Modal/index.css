@@ -47,3 +47,7 @@
 .story {
   margin-top: 1em;
 }
+
+.story:nth-of-type(1) {
+  margin-top: 0;
+}
