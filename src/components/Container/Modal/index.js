@@ -14,4 +14,12 @@ export default class Modal extends Component {
       };
     });
   };
+
+  render() {
+    return (
+      <div className="modal-container">
+        <button type="button" name="button" className="modal-btn" />
+      </div>
+    );
+  }
 }
