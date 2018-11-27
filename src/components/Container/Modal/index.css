@@ -55,3 +55,8 @@
 .modal-text {
   margin: 0.5em;
 }
+
+.link {
+  color: royalblue;
+  text-decoration: none;
+}
