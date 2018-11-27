@@ -19,6 +19,8 @@ export default class Modal extends Component {
     return (
       <div className="modal-container">
         <button type="button" name="button" className="modal-btn" />
+          <i className="material-icons md-14" onClick={this.handleClick}>info_outline</i>
+          </button>
       </div>
     );
   }
