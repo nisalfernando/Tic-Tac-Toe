@@ -30,6 +30,8 @@ export default class Modal extends Component {
               clear
             </i>
           </button>
+
+          <h4 className="modal-title">TicTacToe</h4>
         </dialog>
       </div>
     );
