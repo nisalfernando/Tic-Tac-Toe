@@ -60,3 +60,7 @@
   color: royalblue;
   text-decoration: none;
 }
+
+.modal-about::backdrop {
+  background: darkgray;
+}
