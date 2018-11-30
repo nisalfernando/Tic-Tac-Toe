@@ -32,6 +32,10 @@ export default class Modal extends Component {
           </button>
 
           <h4 className="modal-title">TicTacToe</h4>
+          <p className="modal-text">
+            This is an Advanced Front End Developer project from the
+            FreeCodeCamp. The user stories to be completed are:
+          </p>
         </dialog>
       </div>
     );
