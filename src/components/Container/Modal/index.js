@@ -35,6 +35,7 @@ export default class Modal extends Component {
           <p className="modal-text">
             This is an Advanced Front End Developer project from the
             FreeCodeCamp. The user stories to be completed are:
+            <ul className="user-stories" />
           </p>
         </dialog>
       </div>
