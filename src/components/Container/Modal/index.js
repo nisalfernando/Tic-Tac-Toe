@@ -39,6 +39,9 @@ export default class Modal extends Component {
               <li className="story">
                 I can play a game of Tic Tac Toe with the computer.
               </li>
+              <li className="story">
+                My game will reset as soon as it's over so I can play again.
+              </li>
             </ul>
           </p>
         </dialog>
