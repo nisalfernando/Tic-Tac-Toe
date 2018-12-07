@@ -1,9 +1,14 @@
-import React from 'react';
+import React from "react";
 
-import './index.css';
+import "./index.css";
 
 export default function Footer() {
-    return (
-
-    );
+  return (
+    <footer className="footer">
+      <p>
+        Wriiten and coded by{" "}
+        <a href="https://github.com/nisalfernando">Nisal Fernando</a>
+      </p>
+    </footer>
+  );
 }
