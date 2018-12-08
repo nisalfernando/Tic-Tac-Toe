@@ -3,3 +3,7 @@
   top: 16%;
   width: 210px;
 }
+
+.result::backdrop {
+  background: darkgray;
+}
