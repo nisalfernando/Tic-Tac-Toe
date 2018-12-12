@@ -11,8 +11,15 @@ export default function Board({ board, playerMove }) {
       <div className="square two" data-value="1" onClick={() => playerMove(1)}>
         <p className="element">{board[1]}</p>
       </div>
-      <div class="square three" data-value="1" onClick={() => playerMove(2)}>
+      <div
+        className="square three"
+        data-value="2"
+        onClick={() => playerMove(2)}
+      >
         <p className="element">{board[2]}</p>
+      </div>
+      <div className="square four" data-value="3" onClick={() => playerMove(3)}>
+        <p className="element">{board[3]}</p>
       </div>
     </section>
   );
