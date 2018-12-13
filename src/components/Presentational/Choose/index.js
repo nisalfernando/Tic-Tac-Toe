@@ -8,6 +8,9 @@ export default function Choose({ chooseTeam, toggle }) {
     return (
       <div className="choose-area">
         <h2 className="choose-title">Choose your team</h2>
+        <button className="choose-btn" onClick={chooseTeam}>
+          X
+        </button>
       </div>
     );
   }
