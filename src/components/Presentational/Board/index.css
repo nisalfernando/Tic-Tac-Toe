@@ -10,3 +10,8 @@
   margin: 0 auto;
   width: 280px;
 }
+
+.square {
+  display: flex;
+  flex-direction: column;
+}
