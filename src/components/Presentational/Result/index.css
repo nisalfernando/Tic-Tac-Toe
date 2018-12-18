@@ -6,4 +6,5 @@
 
 .result::backdrop {
   background: darkgray;
+  opacity: 0.95;
 }
