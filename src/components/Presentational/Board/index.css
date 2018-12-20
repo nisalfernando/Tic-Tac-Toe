@@ -20,3 +20,9 @@
   text-align: center;
   width: 32%;
 }
+
+.two,
+.five,
+.eight {
+  border-left: 2px solid black;
+}
