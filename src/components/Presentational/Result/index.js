@@ -5,7 +5,7 @@ import "./index.css";
 export default function Result({ message, modalState }) {
   return (
     <dialog className="result" open={modalState}>
-      <p>{message}</p>
+      <p className="result-message">{message}</p>
     </dialog>
   );
 }
