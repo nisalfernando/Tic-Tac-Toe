@@ -8,3 +8,7 @@
   background: darkgray;
   opacity: 0.95;
 }
+
+.result-message {
+  font-size: 1.2rem;
+}
