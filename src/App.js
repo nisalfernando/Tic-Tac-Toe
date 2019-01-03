@@ -10,6 +10,8 @@ import Footer from "./components/Presentational/Footer";
 
 class App extends Component {
   state = {
-    player: ""
+    player: "",
+    computer: "",
+    board: Array(9).fill(null)
   };
 }
