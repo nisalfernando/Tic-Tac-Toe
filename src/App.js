@@ -14,5 +14,7 @@ class App extends Component {
     computer: "",
     board: Array(9).fill(null),
     chosenTeam: false,
+    gameOver: false,
+    gameOverMsg: null
   };
 }
