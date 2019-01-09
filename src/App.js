@@ -17,4 +17,6 @@ class App extends Component {
     gameOver: false,
     gameOverMsg: null
   };
+
+  chooseTeam = (e) => { }
 }
