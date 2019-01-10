@@ -18,5 +18,9 @@ class App extends Component {
     gameOverMsg: null
   };
 
-  chooseTeam = (e) => { }
+  chooseTeam = (e) => {
+    this.setState({
+      player: e.target.innerHTML,
+    })
+  }
 }
