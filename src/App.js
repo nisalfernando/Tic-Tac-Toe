@@ -21,6 +21,8 @@ class App extends Component {
   chooseTeam = (e) => {
     this.setState({
       player: e.target.innerHTML,
-    })
+      computer: (e.target.innerHTML === 'X' ? 'O' : 'X'),
+      chosenTeam: true
+    });
   }
 }
