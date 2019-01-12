@@ -5,8 +5,8 @@ import './index.css';
 export default function Team({ tohhle, player, computer }) {
   if (toggle) {
     return (
-      <div>
-        <p>Player</p>
+      <div className='team-area' id='team-area'>
+        <p className='teams'>Player:</p>
       </div>
     )
   }
