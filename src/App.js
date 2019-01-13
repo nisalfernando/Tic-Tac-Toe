@@ -29,4 +29,12 @@ class App extends Component {
   getRandomInt = (max) => {
     return Math.floor(Math.random() * Math.floor(max));
   }
+
+  playerMove = (index) => {
+    const newBoard = { ...this.state.board };
+    newBoard[index] = this.state.player;
+    this.setState({ board: newBoard }, () => {
+      this.isGameOver(this.state.board, this.state.player);
+    });
+  }
 }
