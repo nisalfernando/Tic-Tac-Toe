@@ -37,4 +37,9 @@ class App extends Component {
       this.isGameOver(this.state.board, this.state.player);
     });
   }
+
+  computerMove = () => {
+    const emptyCells = Object.defineProperties(this.state.board)
+      .filter(element => element[1] == null)
+  }
 }
