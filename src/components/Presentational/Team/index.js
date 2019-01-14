@@ -8,6 +8,7 @@ export default function Team({ tohhle, player, computer }) {
       <div className='team-area' id='team-area'>
         <p className='teams'>Player:
         <span className={'. ' + player}> {player} </span></p>
+        <p>Computer:</p>
       </div>
     )
   }
