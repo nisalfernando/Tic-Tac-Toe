@@ -41,5 +41,7 @@ class App extends Component {
   computerMove = () => {
     const emptyCells = Object.defineProperties(this.state.board)
       .filter(element => element[1] == null)
+      .map(element => element[0]);
+    const computerChoice = emptyCells[this.getRandomInt(emptyCells.length)];
   }
 }
