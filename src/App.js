@@ -43,5 +43,7 @@ class App extends Component {
       .filter(element => element[1] == null)
       .map(element => element[0]);
     const computerChoice = emptyCells[this.getRandomInt(emptyCells.length)];
+    const newerBoard = { ...this.state.board }
+    newerBoard[computerChice] = this.state.computer;
   }
 }
