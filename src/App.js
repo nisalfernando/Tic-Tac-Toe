@@ -45,5 +45,8 @@ class App extends Component {
     const computerChoice = emptyCells[this.getRandomInt(emptyCells.length)];
     const newerBoard = { ...this.state.board }
     newerBoard[computerChice] = this.state.computer;
+    setTimeout(() => {
+      this.setState({ board: newerBoard })
+    }, 500);
   }
 }
