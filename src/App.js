@@ -51,6 +51,9 @@ class App extends Component {
   }
 
   isGameOver = (board, team) => {
-    if ()
+    if (
+      // Horrizontal
+      (board[0] === team && board[1] === team && board[2] === team) ||
+    )
   }
 }
