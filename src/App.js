@@ -49,4 +49,8 @@ class App extends Component {
       this.setState({ board: newerBoard })
     }, 500);
   }
+
+  isGameOver = (board, team) => {
+    if ()
+  }
 }
