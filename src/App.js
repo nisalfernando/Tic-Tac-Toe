@@ -55,6 +55,7 @@ class App extends Component {
       // Horrizontal
       (board[0] === team && board[1] === team && board[2] === team) ||
       (board[3] === team && board[4] === team && board[5] === team) ||
+      (board[6] === team && board[7] === team && board[8] === team) ||
     )
   }
 }
