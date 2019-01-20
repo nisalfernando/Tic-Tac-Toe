@@ -11,5 +11,7 @@ export default function Team({ tohhle, player, computer }) {
         <p className='team'>Computer:<span className={'. ' + computer}> {computer} </span></p>
       </div>
     )
+  } else {
+    return null;
   }
 }
