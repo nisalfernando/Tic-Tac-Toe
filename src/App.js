@@ -61,7 +61,8 @@ class App extends Component {
       (board[1] === team && board[4] === team && board[7] === team)
         (board[2] === team && board[5] === team && board[8] === team) ||
       // Diagonal
-      (board[0] === team && board[4] === team && board[8] === team)
+      (board[0] === team && board[4] === team && board[8] === team) ||
+      (board[2] === team && board[4] === team && board[6] === team)
     )
   }
 }
