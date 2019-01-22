@@ -63,6 +63,11 @@ class App extends Component {
       // Diagonal
       (board[0] === team && board[4] === team && board[8] === team) ||
       (board[2] === team && board[4] === team && board[6] === team)
-    )
+    ) {
+      this.setState({
+        gameOver: true,
+        gameOverMsg: 'Well done',
+      });
+    }
   }
 }
