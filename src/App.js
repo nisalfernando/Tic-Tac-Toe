@@ -68,6 +68,7 @@ class App extends Component {
         gameOver: true,
         gameOverMsg: 'Well done',
       });
+      setTimeout(this.resetGame, 2000);
     }
   }
 }
