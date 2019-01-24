@@ -69,6 +69,8 @@ class App extends Component {
         gameOverMsg: 'Well done',
       });
       setTimeout(this.resetGame, 2000);
+    } else {
+      this.computerMove();
     }
   }
 }
