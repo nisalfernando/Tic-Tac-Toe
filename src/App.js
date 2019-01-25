@@ -73,4 +73,10 @@ class App extends Component {
       this.computerMove();
     }
   }
+
+  resetGame = () => {
+    this.setState({
+      computer: '',
+    })
+  }
 }
