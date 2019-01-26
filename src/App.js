@@ -77,7 +77,8 @@ class App extends Component {
   resetGame = () => {
     this.setState({
       computer: '',
-      board: Array(9).fill(null)
+      board: Array(9).fill(null),
+      chosenTeam: false
     });
   }
 }
