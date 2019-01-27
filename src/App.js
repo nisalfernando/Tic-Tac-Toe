@@ -78,7 +78,8 @@ class App extends Component {
     this.setState({
       computer: '',
       board: Array(9).fill(null),
-      chosenTeam: false
+      chosenTeam: false,
+      player: '',
     });
   }
 }
