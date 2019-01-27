@@ -80,6 +80,7 @@ class App extends Component {
       board: Array(9).fill(null),
       chosenTeam: false,
       player: '',
+      gameOver: false
     });
   }
 }
