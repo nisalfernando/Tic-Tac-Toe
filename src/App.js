@@ -84,4 +84,10 @@ class App extends Component {
       gameOverMsg: '',
     });
   }
+
+  render() {
+    return (
+      <div></div>
+    )
+  }
 }
