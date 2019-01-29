@@ -87,7 +87,9 @@ class App extends Component {
 
   render() {
     return (
-      <div></div>
+      <div classNAme="App">
+        <Modal />
+      </div>
     )
   }
 }
