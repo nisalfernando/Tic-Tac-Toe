@@ -91,6 +91,7 @@ class App extends Component {
         <Modal />
         <h1 className='title'>Tic-Tac-Toe</h1>
         <Choose chooseTeam={this.chooseTeam} toggle={this.state.chosenTeam} />
+        <Board board={this.state.board} playerMove={this.playerMove} />
       </div>
     )
   }
