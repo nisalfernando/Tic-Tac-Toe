@@ -89,6 +89,7 @@ class App extends Component {
     return (
       <div classNAme="App">
         <Modal />
+        <h1 className='title'>Tic-Tac-Toe</h1>
       </div>
     )
   }
