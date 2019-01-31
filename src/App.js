@@ -94,8 +94,8 @@ class App extends Component {
         <Board board={this.state.board} playerMove={this.playerMove} />
         <Team toggle={this.state.chosenTeam}
           player={this.state.player}
-          computer={/>
+          computer={this./>
       </div>
-      )
+        )
+      }
     }
-  }
