@@ -95,7 +95,7 @@ class App extends Component {
         <Team toggle={this.state.chosenTeam}
           player={this.state.player}
           computer={this.state.computer} />
-        <Result message={this.} />
+        <Result message={this.state.gameOverMsg} />
       </div>
     )
   }
