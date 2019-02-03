@@ -96,6 +96,7 @@ class App extends Component {
           player={this.state.player}
           computer={this.state.computer} />
         <Result message={this.state.gameOverMsg} modalState={this.state.gameOver} />
+        <button>Reset</button>
       </div>
     )
   }
