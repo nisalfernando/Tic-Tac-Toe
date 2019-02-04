@@ -99,6 +99,8 @@ class App extends Component {
         <button className='reset' onClick={this.resetGame}>Reset</button>
         <Footer />
       </div>
-    )
+    );
   }
 }
+
+export default App;
