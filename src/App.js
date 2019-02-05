@@ -39,12 +39,12 @@ class App extends Component {
   }
 
   computerMove = () => {
-    const emptyCells = Object.defineProperties(this.state.board)
+    const emptyCells = Object.entries(this.state.board)
       .filter(element => element[1] == null)
       .map(element => element[0]);
     const computerChoice = emptyCells[this.getRandomInt(emptyCells.length)];
     const newerBoard = { ...this.state.board }
-    newerBoard[computerChice] = this.state.computer;
+    newerBoard[computerChoice] = this.state.computer;
     setTimeout(() => {
       this.setState({ board: newerBoard })
     }, 500);
